@@ -21,6 +21,7 @@ async function handleSubmit(e) {
     <br />
     <form action="#" @submit="handleSubmit">
       <label for="name">Enter your name: &nbsp;</label>
+      <input id="name" alt="Name" type="text" />
       <input id="numer" alt="numer" type="number" />
       <button type="submit">Click Me!</button>
     </form>
